@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "CTMediator.h"
 
 FOUNDATION_EXPORT double TALMediatorVersionNumber;
 FOUNDATION_EXPORT const unsigned char TALMediatorVersionString[];

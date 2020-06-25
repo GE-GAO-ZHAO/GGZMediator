@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		1EA98E1459D0CB0ACD882CB1 /* Pods-TALMediator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TALMediator_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TALMediator_Tests/Pods-TALMediator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4D4718A24D138B6BF6CAACF9 /* Pods_TALMediator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TALMediator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E4256611520647B3248E8B7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4E4256611520647B3248E8B7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* TALMediator_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TALMediator_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,12 +60,12 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		69C5ABDEE76BBB2EE0902AE8 /* Pods_TALMediator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TALMediator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6A12137D55DA21A25CE7F077 /* TALMediator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TALMediator.podspec; path = ../TALMediator.podspec; sourceTree = "<group>"; };
+		6A12137D55DA21A25CE7F077 /* TALMediator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TALMediator.podspec; path = ../TALMediator.podspec; sourceTree = "<group>"; };
 		6BD79B8A74DFF5F9B52C68C4 /* Pods-TALMediator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TALMediator_Example.release.xcconfig"; path = "Target Support Files/Pods-TALMediator_Example/Pods-TALMediator_Example.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A1F944B339B0BF26504C6BEF /* Pods-TALMediator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TALMediator_Tests.release.xcconfig"; path = "Target Support Files/Pods-TALMediator_Tests/Pods-TALMediator_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		AAA30F7A6BBE4515C19D07CC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		AAA30F7A6BBE4515C19D07CC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		EF5FB492780E3A4EFD02DED3 /* Pods-TALMediator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TALMediator_Example.debug.xcconfig"; path = "Target Support Files/Pods-TALMediator_Example/Pods-TALMediator_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,7 +103,6 @@
 				1EA98E1459D0CB0ACD882CB1 /* Pods-TALMediator_Tests.debug.xcconfig */,
 				A1F944B339B0BF26504C6BEF /* Pods-TALMediator_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "gegaozhao1126@gmail.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = FA7354VW7Z;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -494,6 +497,7 @@
 			baseConfigurationReference = EF5FB492780E3A4EFD02DED3 /* Pods-TALMediator_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FA7354VW7Z;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TALMediator/TALMediator-Prefix.pch";
 				INFOPLIST_FILE = "TALMediator/TALMediator-Info.plist";
@@ -510,6 +514,7 @@
 			baseConfigurationReference = 6BD79B8A74DFF5F9B52C68C4 /* Pods-TALMediator_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FA7354VW7Z;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TALMediator/TALMediator-Prefix.pch";
 				INFOPLIST_FILE = "TALMediator/TALMediator-Info.plist";
