@@ -1,0 +1,6 @@
+framework module Pods_TALMediator_Tests {
+  umbrella header "Pods-TALMediator_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

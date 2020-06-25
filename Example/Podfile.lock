@@ -1,0 +1,16 @@
+PODS:
+  - TALMediator (0.1.0)
+
+DEPENDENCIES:
+  - TALMediator (from `../`)
+
+EXTERNAL SOURCES:
+  TALMediator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TALMediator: e0c82618086dfee6106d502032ba6863c1eb8370
+
+PODFILE CHECKSUM: b3e1c9c14efdeb16dda14cee9a30c1e96d213558
+
+COCOAPODS: 1.8.4
