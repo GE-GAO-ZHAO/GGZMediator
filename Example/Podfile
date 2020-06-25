@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'TALMediator_Example' do
+  pod 'TALMediator', :path => '../'
+
+  target 'TALMediator_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
