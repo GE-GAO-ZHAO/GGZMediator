@@ -1,7 +1,7 @@
 {
   "name": "TALMediator",
-  "version": "1.0.0",
-  "summary": "TALMediator \u001a\u001a\u001a-\u001a\u001a\u001a",
+  "version": "3.0.0",
+  "summary": "\u001a\u001a\u001a\u001a\u001a\u001a\u001a\u001a\u001a\u001a\u001a\u001aTALMediator-TestMediator",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/GE-GAO-ZHAO/GGZMediator.git",
   "license": {
@@ -13,14 +13,23 @@
   },
   "source": {
     "git": "https://github.com/GE-GAO-ZHAO/GGZMediator.git",
-    "tag": "1.0.0"
+    "tag": "3.0.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "TALMediator/Classes/**/*",
   "frameworks": [
     "UIKit",
     "MapKit"
+  ],
+  "subspecs": [
+    {
+      "name": "Categary",
+      "source_files": "TALMediator/Classes/**/*.{h,m}",
+      "frameworks": [
+        "UIKit",
+        "MapKit"
+      ]
+    }
   ]
 }

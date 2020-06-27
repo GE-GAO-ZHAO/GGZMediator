@@ -1,5 +1,7 @@
 PODS:
-  - TALMediator (1.0.0)
+  - TALMediator (3.0.0):
+    - TALMediator/Categary (= 3.0.0)
+  - TALMediator/Categary (3.0.0)
 
 DEPENDENCIES:
   - TALMediator (from `../`)
@@ -9,7 +11,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TALMediator: ffc46a2be2ed976efdda2f87ca20ffea05a198db
+  TALMediator: 934998854c79aaf4186c7f2c63e6624720457607
 
 PODFILE CHECKSUM: b3e1c9c14efdeb16dda14cee9a30c1e96d213558
 
